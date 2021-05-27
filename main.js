@@ -1,0 +1,8 @@
+// setTimeout(() => console.log('Hello JS Timeout!'), 10000)
+// setTimeout(() => console.log('Hello JS Timeout!'), 10000)
+console.log('Start')
+// const intervalId = setInterval(() => console.log('Hello JS Timeout!'), 2000)
+const intervalId = setInterval(() => console.log('Hello JS Timeout!'), 0)
+console.log('Started')
+setTimeout(() => clearInterval(intervalId), 2000)
+console.log('Finished')
